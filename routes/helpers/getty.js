@@ -4,7 +4,7 @@ var https = require('https');
 
 
 console.log("In getty!!!!!!!!!!!!"); 
-console.log("api key: " + (process.env.GETTY_API_KEY || 'a2nx44jnc2tatmpvdk4b2zgg')); 
+console.log("api key: " + (process.env.GETTY_API_KEY)); 
 
 const options = {
     hostname: "api.gettyimages.com", 
