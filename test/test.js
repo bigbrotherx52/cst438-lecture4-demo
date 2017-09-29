@@ -49,7 +49,7 @@ var stub = sinon.stub(getty, "makeApiRequest").callsFake(function(callback) {
          callback(null, "http://gettyimages.com/bird.png"); 
     });
     
-describe("Getty api call", function() {
+describe("!!!!Getty api call", function() {
     
     it("should return without errors", function(done) {
         
