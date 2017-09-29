@@ -63,9 +63,7 @@ describe("!!!!Getty api call", function() {
     }); 
     
     
-    it("getty api key should be this!", function(done){
-        expect(options.headers.Api-Key).to.be(process.env.GETTY_API_KEY);
-    })
+ 
     
     
 }); 
